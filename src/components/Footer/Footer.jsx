@@ -3,12 +3,9 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
-
-
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
-
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -37,12 +34,11 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - made with love{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
+          © {new Date().getFullYear()} - made with love by{' '}
+          <a href="https://www.linkedin.com/in/phenyo-m-e-mokgadi/" target="_blank" rel="noopener noreferrer">
             phenyo mokgadi
           </a>
         </p>
-
       </Container>
     </footer>
   );

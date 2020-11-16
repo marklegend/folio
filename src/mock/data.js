@@ -9,12 +9,11 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hi, my name is',
   name: 'Phenyo Mokgadi',
-  subtitle: '',
+  subtitle: "I'm the unknown junior front end developer.",
   cta: 'wanna know more',
 };
-
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
@@ -31,7 +30,7 @@ export const projectsData = [
     img: 'project1.png',
     title: "tino's cafe",
     info: "tino's cafe is a starter website to help people who want a simple yet modern website about food. It can be used as a landing page \
-    website for small start-up businesses. I designed the layout and developed the website using Bootstrap, Sass and Javascript.",
+           website for small start-up businesses. I designed the layout and developed the website using Bootstrap, Sass and Javascript.",
     info2: 'UI/UX design | front-end dev',
     url: 'https://marklegend.github.io/demo_cafe/',
     repo: 'https://github.com/marklegend/demo_portfolio', // if no repo, the button will not show up
@@ -40,7 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'smart academy',
-    info: 'smart academy is a landing page for a online video learning platform, I designed the layout & developed the front-end using pure HTML & CSS.',
+    info: 'smart academy is a landing page for a online video learning platform, I designed the layout & developed the front-end using pure HTML & CSS. \
+        (I would like to extend it by building the back-end with Ruby on Rails coming soon)',
     info2: 'UI/UX design | Front-end dev',
     url: 'https://github.com/marklegend/demo_portfolio',
     repo: 'https://github.com/marklegend/demo_portfolio', // if no repo, the button will not show up
@@ -50,7 +50,7 @@ export const projectsData = [
     img: 'project3.jpg',
     title: 'althealth management system',
     info: "althealth is an MIS for an in-house software used for inventory managment and daily reports. I designed and developed the \
-     site's back-end REST API using PHP and MySQL and front-end with Bootstrap (School Project)",
+          site's back-end REST API using PHP and MySQL and front-end with Bootstrap (School Project)",
     info2: 'UI/UX design | Back & Front-end dev',
     url: '',
     repo: 'https://github.com/marklegend/', // if no repo, the button will not show up
