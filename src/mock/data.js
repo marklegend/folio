@@ -17,8 +17,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "Hi, my name is Phenyo and I'm currently a student at Unisa pursuing a Advanced Diploma in IT. Over the past couple of years, coding has developed into a passion of mine, specifically in the land of internet.",
-  paragraphTwo: "I am intriged by front-end developement, I am able to create clean and functonal websites as well as UI designs.",
+  paragraphOne: "Hi, my name is Phenyo and I'm currently a student at Unisa pursuing an Advanced Diploma in IT. Over the past couple of years, coding has developed into a passion of mine, specifically in the land of the internet.",
+  paragraphTwo: "I am intrigued by front-end development, I am able to create clean and functional websites as well as UI designs.",
   paragraphThree: "I enjoy solving problems and building some cool stuff. I aspire to be a better developer.",
   resume: 'https://drive.google.com/file/d/16JgHjqQz4sEQeW4gWlt8vQCiD0_GB71m/view', // if no resume, the button will not show up
 };
