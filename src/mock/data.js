@@ -20,7 +20,7 @@ export const aboutData = {
   paragraphOne: "Hi, my name is Phenyo and I'm currently a student at Unisa pursuing an Advanced Diploma in IT. Over the past couple of years, coding has developed into a passion of mine, specifically in the land of the internet.",
   paragraphTwo: "I am intrigued by front-end development, I am able to create clean and functional websites as well as UI designs.",
   paragraphThree: "I enjoy solving problems and building some cool stuff. I aspire to be a better developer.",
-  resume: 'https://drive.google.com/file/d/16JgHjqQz4sEQeW4gWlt8vQCiD0_GB71m/view', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1eB3Kr9xJpbepoLrmH5707Qa9NRY9_u35/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -42,18 +42,18 @@ export const projectsData = [
     info: 'smart academy is a landing page for a online video learning platform, I designed the layout & developed the front-end using pure HTML & CSS. \
         (I would like to extend it by building the back-end with Ruby on Rails coming soon)',
     info2: 'UI/UX design | Front-end dev',
-    url: 'https://github.com/marklegend/demo_portfolio',
-    repo: 'https://github.com/marklegend/demo_portfolio', // if no repo, the button will not show up
+    url: 'https://marklegend.github.io/smart_academy/',
+    repo: 'https://github.com/marklegend/smart_academy', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project3.jpg',
     title: 'althealth management system',
-    info: "althealth is an MIS for an in-house software used for inventory managment and daily reports. I designed and developed the \
+    info: "althealth is an MIS for an in-house software used for inventory management and daily reports. I designed and developed the \
           site's back-end REST API using PHP and MySQL and front-end with Bootstrap (School Project)",
     info2: 'UI/UX design | Back & Front-end dev',
     url: '',
-    repo: 'https://github.com/marklegend/', // if no repo, the button will not show up
+    repo: 'https://github.com/marklegend/althsystem', // if no repo, the button will not show up
   },
 ];
 
